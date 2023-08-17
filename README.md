@@ -9,7 +9,8 @@
 ### - `curl` to make the API calls
 
 ## Notes:
-### - ATLASAPIKEY='OrgPublicKey:OrgPrivateKey' needs to be filled in with Organization Owner access key.
+### - `ATLASAPIKEY='OrgPublicKey:OrgPrivateKey'` needs to be filled in with Organization Owner access key.
 
-## Scripts are provided as an example only and are not for production use. Use at your own risk.
+## Disclaimer:
+### Scripts are provided as an example only and are not for production use. Use at your own risk.
 
