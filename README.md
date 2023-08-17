@@ -1,10 +1,15 @@
-# Repo with examples for calling the MongoDB Atlas API (https://www.mongodb.com/docs/atlas/api/) from Bash scripts
+# Repo with examples for calling the MongoDB Atlas API 
 
-## These scripts require the standard tools:
-## - jq to parse JSON (https://jqlang.github.io/jq/download/)
-## - curl to make the API calls
+### Also refer to the MongoDB Atlas API documentation: https://www.mongodb.com/docs/atlas/api/
 
-## ATLASAPIKEY='OrgPublicKey:OrgPrivateKey' needs to be filled in with Organization Owner access key.
+## Description:
 
-## Scripts are provided as an example and not for production use. Use at your own risk.
+### These are Bash scripts and require standard tools:
+### - `jq` to parse JSON (https://jqlang.github.io/jq/download/)
+### - `curl` to make the API calls
+
+## Notes:
+### - ATLASAPIKEY='OrgPublicKey:OrgPrivateKey' needs to be filled in with Organization Owner access key.
+
+## Scripts are provided as an example only and are not for production use. Use at your own risk.
 
