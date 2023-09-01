@@ -6,7 +6,7 @@ PROMETHEUSPASSWORD=p
 
 for PROJECTID in $( curl --user $ATLASAPIKEY --digest \
      --header 'Accept: application/vnd.atlas.2023-01-01+json' \
-     --request GET 'https://cloud.mongodb.com/api/atlas/v2/groups' |jq -r .results[].id );do
+     --request GET 'https://cloud.mongodb.com/api/atlas/v2/groups?pageNum=1&itemsPerPage=10000' |jq -r .results[].id );do
 echo $PROJECTID
 
 curl --user $ATLASAPIKEY --digest \
